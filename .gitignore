@@ -1,0 +1,51 @@
+# Environments & Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node dependencies & builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+build/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Uploads
+*.db
+*.sqlite3
+career_twin.db
+backend/career_twin.db
+uploads/
+backend/uploads/
+*.pdf
+
+# Environment variables & secrets (DO NOT COMMIT SECRETS)
+.env
+*.env
+backend/.env
+.env.local
+.env.*.local
+
+# IDEs & OS specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

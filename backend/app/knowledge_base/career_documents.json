@@ -1,0 +1,114 @@
+[
+  {
+    "id": "kb_tech_python",
+    "category": "Programming Languages",
+    "title": "Python for High-Performance Backend & Machine Learning",
+    "tags": ["python", "backend", "fastapi", "django", "machine learning", "data science"],
+    "content": "Python is a premier language for backend services and AI/ML ecosystems. Modern Python backend development emphasizes Python 3.12+ type hints, asynchronous programming with asyncio, and frameworks like FastAPI and Django REST Framework. Core competencies include: understanding the Global Interpreter Lock (GIL), concurrency models (multiprocessing vs threading vs async), memory management via reference counting and cyclic garbage collection, generator pipelines, and profiling tools like cProfile. For ML, proficiency in NumPy vectorization, Pandas data structures, Scikit-Learn pipelines, and PyTorch tensors is essential."
+  },
+  {
+    "id": "kb_tech_javascript_typescript",
+    "category": "Programming Languages",
+    "title": "JavaScript and TypeScript Mastery",
+    "tags": ["javascript", "typescript", "frontend", "nodejs", "react"],
+    "content": "TypeScript adds static typing, interfaces, and generics to JavaScript, drastically improving enterprise maintainability. Key topics for software engineering interviews: the JavaScript Event Loop, microtasks (Promises) vs macrotasks (setTimeout), prototype inheritance, closures, lexical scoping, and async/await error handling. In TypeScript, focus on discriminated unions, utility types (Partial, Pick, Omit, Record), conditional types, and strict null checking."
+  },
+  {
+    "id": "kb_tech_java_spring",
+    "category": "Programming Languages & Frameworks",
+    "title": "Java & Spring Boot Enterprise Architecture",
+    "tags": ["java", "spring boot", "backend", "microservices", "multithreading"],
+    "content": "Java remains the backbone of enterprise banking and high-scale backends. Core areas include JVM internals (ClassLoaders, Heap vs Stack memory, Garbage Collection algorithms like G1 and ZGC), Java 17+ records and pattern matching, concurrent programming (java.util.concurrent, CompletableFuture, Virtual Threads). In Spring Boot, master Inversion of Control (IoC), Dependency Injection, Spring Security JWT authentication, Spring Data JPA connection pooling (HikariCP), and resilience patterns with Resilience4j."
+  },
+  {
+    "id": "kb_tech_fastapi_react",
+    "category": "Frameworks & Full-Stack",
+    "title": "Modern Full-Stack Architecture: FastAPI & React",
+    "tags": ["fastapi", "react", "fullstack", "rest api", "vite"],
+    "content": "Building high-performance modern web apps combines FastAPI for asynchronous API throughput and React with Vite for dynamic client-side rendering. Essential practices include Pydantic v2 data validation schemas, SQLAlchemy 2.0 async sessions, JWT token auth with HTTP-only cookies, OpenAPI documentation, React hooks (useState, useEffect, useMemo, useCallback), context-driven state management, TailwindCSS styling, and client-side route guards."
+  },
+  {
+    "id": "kb_tech_databases",
+    "category": "Databases & Storage",
+    "title": "Relational & NoSQL Database Optimization",
+    "tags": ["postgresql", "mysql", "mongodb", "redis", "indexing", "sql"],
+    "content": "Relational databases like PostgreSQL provide ACID guarantees, B-Tree and GIN indexes, query execution analysis (EXPLAIN ANALYZE), connection pooling, and schema migrations with Alembic. Redis serves as an in-memory key-value cache with eviction policies (LRU/LFU), Pub/Sub channels, and distributed locking. NoSQL systems like MongoDB provide horizontal scalability for document-oriented telemetry and flexible semi-structured data models."
+  },
+  {
+    "id": "kb_tech_docker_cloud",
+    "category": "DevOps & Cloud Computing",
+    "title": "Docker, Kubernetes, and Cloud Deployment",
+    "tags": ["docker", "kubernetes", "aws", "devops", "ci/cd"],
+    "content": "Containerization standardizes microservices across environments. Key requirements: multi-stage Dockerfiles for minimal image sizes, non-root user permissions, container health checks, and Docker Compose for local orchestration. On AWS, primary services for entry-to-mid software engineers include EC2, ECS/EKS container runners, S3 object storage, RDS managed databases, CloudWatch logging, and GitHub Actions CI/CD pipelines running automated linters and pytest suites."
+  },
+  {
+    "id": "kb_role_sde",
+    "category": "Job Roles & Career Paths",
+    "title": "Software Development Engineer (SDE) Preparation",
+    "tags": ["sde", "software engineer", "career path", "google", "microsoft", "amazon"],
+    "content": "SDE roles at Tier-1 companies (Google, Microsoft, Amazon) test algorithmic problem solving, clean code architecture, and modular API design. Candidates must demonstrate proficiency in at least one object-oriented or systems language (Python, Java, C++, Go), achieve strong Data Structures & Algorithms mastery (graphs, dynamic programming, heaps, trees), and exhibit clean coding practices (SOLID principles, unit testing, meaningful variable names). Minimum recommended profile: 200+ solved LeetCode problems, 2 deployed full-stack or systems projects, and CGPA >= 7.5."
+  },
+  {
+    "id": "kb_role_mle",
+    "category": "Job Roles & Career Paths",
+    "title": "Machine Learning Engineer (MLE) Career Track",
+    "tags": ["mle", "machine learning engineer", "data science", "ai", "rag"],
+    "content": "Machine Learning Engineers bridge mathematical data science and production engineering. Requisite skills include classical supervised and unsupervised ML (Scikit-Learn, XGBoost, Random Forest), deep learning architectures (CNNs, Transformers), feature engineering pipelines, model serialization (Joblib, ONNX), and MLOps deployment with FastAPI and Docker. Understanding evaluation metrics (Precision, Recall, ROC-AUC, F1-Score) and latency trade-offs is critical."
+  },
+  {
+    "id": "kb_role_cloud_devops",
+    "category": "Job Roles & Career Paths",
+    "title": "Cloud DevOps & Platform Engineer Career Track",
+    "tags": ["cloud", "devops", "site reliability", "aws", "terraform"],
+    "content": "Cloud engineers manage infrastructure reliability, automated releases, and observability. Requisite skills include Infrastructure as Code (Terraform), container orchestration (Kubernetes pods, services, ingress), CI/CD pipelines (GitHub Actions, GitLab CI), Linux systems administration (bash, network sockets, systemd), and cloud security IAM policies."
+  },
+  {
+    "id": "kb_interview_dsa",
+    "category": "Interview Topics",
+    "title": "Data Structures & Algorithms Interview Strategy",
+    "tags": ["dsa", "leetcode", "algorithms", "data structures", "interviews"],
+    "content": "Technical coding rounds at top product firms evaluate problem decomposition and computational complexity. Crucial topics: 1. Sliding Window & Two Pointers (array/string substring problems); 2. Breadth-First & Depth-First Search (matrix traversal, graph cycles); 3. Dynamic Programming (0/1 Knapsack, Longest Common Subsequence, Grid paths); 4. Monotonic Stack & Queue (Next Greater Element, sliding window max); 5. Trie & Disjoint Set Union (prefix search, connected components). Always clarify constraints, state edge cases, discuss Time/Space complexity, and dry-run before writing code."
+  },
+  {
+    "id": "kb_interview_system_design",
+    "category": "Interview Topics",
+    "title": "System Design & Architecture Interview Guide",
+    "tags": ["system design", "scalability", "load balancing", "caching", "architecture"],
+    "content": "System design rounds evaluate how you handle scalability, fault tolerance, and high availability. Approach using a 4-step framework: 1. Requirements Clarification (functional features, DAU, read/write ratio, latency SLA); 2. Back-of-the-envelope estimation (throughput QPS, storage footprint); 3. High-level architecture (clients, API gateway, stateless app servers, databases, cache layer); 4. Deep-dive into bottlenecks (replication, sharding, caching strategies, rate limiting, and failure modes)."
+  },
+  {
+    "id": "kb_interview_behavioral",
+    "category": "Interview Topics",
+    "title": "Behavioral & Leadership Principles (STAR Method)",
+    "tags": ["behavioral", "hr interview", "star method", "leadership", "soft skills"],
+    "content": "Behavioral interviews assess culture fit, conflict resolution, ownership, and resilience. Structure every story using the STAR framework: Situation (set context in 2 sentences), Task (what was your specific responsibility), Action (what concrete technical and interpersonal steps YOU took), and Result (quantifiable impact, metrics, lessons learned). Prepare stories covering: dealing with ambiguous requirements, technical disagreement with a team member, recovering from a production bug, and delivering under strict deadlines."
+  },
+  {
+    "id": "kb_courses_certifications",
+    "category": "Courses & Certifications",
+    "title": "High-Value Industry Certifications & Learning Tracks",
+    "tags": ["certifications", "aws", "gcp", "courses", "credentials"],
+    "content": "Top resume-boosting certifications for campus and early-career software engineering: 1. AWS Certified Solutions Architect Associate (industry benchmark for cloud infrastructure); 2. DeepLearning.AI Machine Learning Specialization by Andrew Ng; 3. Meta Front-End / Back-End Developer Professional Certificates; 4. HashiCorp Certified Terraform Associate. Pair certifications with demonstrable open-source projects; certifications validate theoretical knowledge, while code repositories prove execution capability."
+  },
+  {
+    "id": "kb_project_ideas",
+    "category": "Project Ideas",
+    "title": "High-Impact Portfolio Projects for Software Roles",
+    "tags": ["projects", "portfolio", "capstone", "github", "resume"],
+    "content": "Standout projects that impress tech recruiters: 1. Distributed Task Scheduler: Built with Python/FastAPI, Redis message queues, worker processes, and Docker; 2. Real-Time Collaborative Whiteboard: React, WebSockets, Redis pub/sub, operational transformation; 3. AI Document Intelligence & RAG Search: LangChain/FAISS vector embeddings with semantic document search over technical manuals; 4. High-Throughput E-Commerce Microservice: Spring Boot, PostgreSQL with optimistic locking, Kafka event streaming. Ensure live deployment, automated unit tests, and thorough README with architecture diagrams."
+  },
+  {
+    "id": "kb_prep_aptitude",
+    "category": "Aptitude & Coding Preparation",
+    "title": "Campus Placement Aptitude & Online Assessment (OA) Mastery",
+    "tags": ["aptitude", "quantitative", "logical reasoning", "campus placement", "oa"],
+    "content": "Initial placement screening rounds test Quantitative Ability, Logical Reasoning, and Verbal Proficiency. Key quantitative topics: Profit & Loss, Time & Work, Speed & Distance, Permutations & Combinations, Probability, and Data Interpretation. Logical reasoning covers Syllogisms, Blood Relations, Seating Arrangements, and Coding-Decoding. Practice speed math (vedic math shortcuts, percentage fraction conversions) to solve questions under 60 seconds."
+  },
+  {
+    "id": "kb_prep_coding",
+    "category": "Aptitude & Coding Preparation",
+    "title": "Competitive Programming & Online Assessment Strategy",
+    "tags": ["coding preparation", "hackerrank", "leetcode", "online assessment"],
+    "content": "Online Assessments (OAs) typically contain 2 to 3 coding questions with 60 to 90 minutes limits. Strategy: 1. Read all questions before coding to identify the easiest problem first; 2. Watch for integer overflow constraints (use 64-bit long long in C++ or BigInt in JS); 3. Test with corner cases (empty inputs, maximum constraints, duplicates, all-negative values); 4. Ensure optimal time complexity to pass all hidden test cases and avoid Time Limit Exceeded (TLE)."
+  }
+]

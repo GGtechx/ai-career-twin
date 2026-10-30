@@ -1,0 +1,43 @@
+{
+  "model_name": "RandomForest_Placement_Classifier",
+  "version": "1.0-basepaper",
+  "dataset_rows": 100000,
+  "features": [
+    "cgpa",
+    "internships_count",
+    "projects_count",
+    "certifications_count",
+    "coding_skill_score",
+    "aptitude_score",
+    "communication_skill_score",
+    "mock_interview_score",
+    "backlogs"
+  ],
+  "metrics": {
+    "accuracy": 0.5632,
+    "precision": 0.5706,
+    "recall": 0.7991,
+    "f1_score": 0.6658,
+    "confusion_matrix": [
+      [
+        2559,
+        6549
+      ],
+      [
+        2188,
+        8704
+      ]
+    ]
+  },
+  "feature_importances": {
+    "cgpa": 0.1339,
+    "internships_count": 0.0559,
+    "projects_count": 0.0656,
+    "certifications_count": 0.0437,
+    "coding_skill_score": 0.1639,
+    "aptitude_score": 0.1559,
+    "communication_skill_score": 0.1505,
+    "mock_interview_score": 0.1639,
+    "backlogs": 0.0667
+  }
+}
